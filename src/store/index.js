@@ -4,7 +4,7 @@ const state = reactive({
     cakes: 10,
     coffees: 0,
     theme: 'emerald',
-    notEditable: 'Questa variabile non è modificabile'
+    //notEditable: 'Questa variabile non è modificabile'
 });
 
 const methods = {
@@ -34,5 +34,5 @@ const methods = {
 export default {
     state,
     methods,
-    // notEditable: readonly(state.notEditable) ???
+   // notEditable: readonly(state.notEditable)
 }

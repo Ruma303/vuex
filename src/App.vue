@@ -27,7 +27,8 @@ const themeClass = computed(() => {
         <nav class="flex gap-2 items-center justify-center h-100">
             <router-link to="/cakes" class="text-xl">Cakes</router-link> ||
             <router-link to="/" class="text-xl">Home</router-link> ||
-            <router-link to="/coffees" class="text-xl">Coffees</router-link>
+            <router-link to="/coffees" class="text-xl">Coffees</router-link> ||
+            <router-link to="/about" class="text-xl">About</router-link>
         </nav>
 
         <section :class="['flex flex-col gap-3 mb-5 items-center shadow-xl p-4 min-w-96 min-h-60', themeClass]">
