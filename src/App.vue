@@ -16,6 +16,7 @@ const themeClass = computed(() => {
             return 'shadow-emerald-500';
     }
 });
+/* Ora ogni volta che selezioni un nuovo tema dalla <select> in HomeView.vue, lo state di Vuex si aggiornerà, e grazie alla computed property in App.vue, il nuovo tema verrà applicato come classe al tuo <section>. */
 
 </script>
 

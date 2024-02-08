@@ -1,6 +1,7 @@
 <script setup>
 import { useStore } from 'vuex';
 const store = useStore();
+/* In HomeView.vue, non hai bisogno di defineEmits perché utilizzerai Vuex per gestire lo stato globalmente. Assicurati che la selezione aggiorni lo state di Vuex. */
 </script>
 
 <template>
@@ -18,6 +19,6 @@ const store = useStore();
             <option value="blue">Blu</option>
             <option value="amber">Ambra</option>
         </select>
-        
+
     </div>
 </template>
